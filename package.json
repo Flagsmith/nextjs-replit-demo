@@ -9,12 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.0.0",
+    "flagsmith": "^1.7.4",
     "next": "12.0.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-json-view": "^1.21.3",
+    "sass": "^1.32.13"
   },
   "devDependencies": {
+    "@types/react": "^17.0.39",
+    "@tsconfig/next": "^1.0.2",
+    "@types/next": "^9.0.0",
     "eslint": "7",
-    "eslint-config-next": "12.0.1"
+    "eslint-config-next": "12.0.1",
+    "typescript": "^4.5.5"
   }
 }

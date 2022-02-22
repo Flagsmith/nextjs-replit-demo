@@ -1,0 +1,14 @@
+{
+  "extends": "@tsconfig/next/tsconfig.json", // https://github.com/tsconfig/bases/blob/main/bases/next.json
+  "compilerOptions": {
+    "strict": false,
+    "baseUrl": ".",
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

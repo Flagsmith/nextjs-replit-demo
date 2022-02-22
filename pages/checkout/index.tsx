@@ -1,6 +1,5 @@
-import Link from 'next/link'
-
-export default function Home() {
+//// The checkout page
+export default function Checkout() {
   return (
     <div>
 	      <h1>Checkout</h1>
